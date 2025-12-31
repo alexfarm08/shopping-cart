@@ -1,0 +1,18 @@
+.footer {
+  width: 100%;
+  background-color: hsl(220, 16%, 95%); /* light neutral background */
+  border-top: 1px solid hsl(220, 13%, 91%);
+  padding: 1rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; /* optional if you want sticky footer, can use fixed */
+  bottom: 0;
+}
+
+.footerText {
+  color: hsl(222, 47%, 11%);
+  font-size: 0.9rem;
+  font-weight: 500;
+  margin: 0;
+}

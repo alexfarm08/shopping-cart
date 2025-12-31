@@ -1,0 +1,55 @@
+.navBar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0.75rem 2rem;
+  background-color: hsl(0, 0%, 100%); 
+
+  border-bottom: 2px solid hsl(220, 13%, 91%); 
+}
+
+.navTitle {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin: 0;
+  color: hsl(222, 47%, 11%); 
+}
+
+
+.navLinks {
+  display: flex;
+  gap: 2rem;
+}
+
+.link {
+  text-decoration: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: hsl(215, 16%, 35%);
+
+  position: relative;
+  transition: color 0.2s ease;
+}
+
+.link:hover {
+  color: hsl(222, 47%, 11%);
+}
+
+
+.link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -4px;
+
+  width: 0;
+  height: 2px;
+  background-color: hsl(222, 47%, 11%);
+
+  transition: width 0.2s ease;
+}
+
+.link:hover::after {
+  width: 100%;
+}
