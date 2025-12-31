@@ -1,0 +1,34 @@
+.shop {
+  min-height: 100vh;
+  padding: 2rem 1rem;
+  background-color: hsl(0, 0%, 98%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.shopHeading {
+  font-size: 2rem;
+  font-weight: 600;
+  color: hsl(222, 47%, 11%);
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.productsDiv {
+  width: 100%;
+  max-width: 1200px;
+
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+
+  justify-content: center;
+}
+
+.loading {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: hsl(220, 16%, 35%);
+  text-align: center;
+}
