@@ -1,0 +1,38 @@
+.addToCart {
+  width: 50%;
+  background-color: hsl(140, 65%, 45%); /* green */
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem 1rem;
+  font-size: 0.95rem;
+  font-weight: 600;
+  cursor: pointer;
+
+  transition:
+    background-color 0.2s ease,
+    transform 0.15s ease,
+    box-shadow 0.15s ease;
+
+  box-shadow: 0 4px 6px hsla(140, 65%, 45%, 0.35);
+}
+
+/* Hover */
+.addToCart:hover {
+  background-color: hsl(140, 60%, 40%);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 10px hsla(140, 65%, 45%, 0.45);
+}
+
+/* Active / click */
+.addToCart:active {
+  transform: translateY(0);
+  box-shadow: 0 3px 5px hsla(140, 65%, 45%, 0.35);
+}
+
+/* Disabled */
+.addToCart:disabled {
+  background-color: hsl(220, 13%, 75%);
+  cursor: not-allowed;
+  box-shadow: none;
+}
