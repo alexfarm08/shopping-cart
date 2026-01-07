@@ -2,7 +2,7 @@ import { StrictMode } from 'react';
 import { createRoot } from 'react-dom/client';
 import { createBrowserRouter, RouterProvider } from "react-router";
 import App from './App.jsx'
-import Shop from './componets/shop.jsx';
+import Shop from './componets/Shop.jsx';
 import Cart from './componets/Cart.jsx';
 import Home from './componets/Home.jsx';
 
