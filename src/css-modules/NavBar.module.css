@@ -53,3 +53,22 @@
 .link:hover::after {
   width: 100%;
 }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .navBar {
+    padding: 0.5rem 1rem;
+  }
+
+  .navTitle {
+    font-size: 1.4rem;
+  }
+
+  .navLinks {
+    gap: 1rem;
+  }
+
+  .link {
+    font-size: 1rem;
+  }
+}

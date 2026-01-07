@@ -2,7 +2,7 @@ import styles from "../css-modules/Button.module.css";
 
 function Button(props) {
     return(
-        <button className={styles.addToCart}>{props.btnText}</button>
+        <button className={props.styles} onClick={props.onClick}>{props.btnText}</button>
     )
 }
 
